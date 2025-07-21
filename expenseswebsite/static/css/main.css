@@ -11,3 +11,37 @@
         font-size: 3.5rem;
     }
 }
+
+/* .showPasswordToggle {
+    cursor: pointer;
+    transition: all;
+} */
+/* .showPasswordToggle {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    display: inline-block;
+    user-select: none;
+}
+
+
+.showPasswordToggle:hover {
+    transform: scale(1.2);
+} */
+
+.showPasswordToggle {
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.showPasswordToggle:hover {
+    transform: scale(1.2);
+    font-size: 1.05em;
+}
+
+body {
+    padding-top: 56px;
+  }
+  
